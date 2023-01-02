@@ -15,6 +15,8 @@ chezmoi apply
 ```
 chezmoi edit-config
 
+chezmoi add ~/.zshrc
+
 chezmoi add -T --autotemplate ~/.gitconfig
 
 chezmoi cd
