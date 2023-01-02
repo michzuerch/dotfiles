@@ -47,8 +47,8 @@ source /usr/share/doc/find-the-command/ftc.zsh
 export EDITOR=nvim
 export VISUAL=nvim
 
-export OPENAI_API_KEY=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
-export GITHUB_TOKEN=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
+export OPENAI_API_KEY=sk-xxxx
+export GITHUB_TOKEN=ghp_xxxx
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
