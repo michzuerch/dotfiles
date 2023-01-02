@@ -1,0 +1,55 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+neofetch | lolcat
+
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt extendedglob nomatch notify
+unsetopt beep
+# From sample Luke Smith 
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
+
+# End of lines added by compinstall
+bindkey -v
+export KEYTIMEOUT=1
+
+
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -v '^?' backward-delete-char 
+
+#
+eval "$(starship init zsh)"
+eval "$(dircolors -b ~/.dircolors)"
+eval "$(zoxide init zsh)"
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/doc/find-the-command/ftc.zsh 
+
+
+#test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
+export EDITOR=nvim
+export VISUAL=nvim
+
+export OPENAI_API_KEY=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
+export GITHUB_TOKEN=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
+
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
