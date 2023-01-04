@@ -1,1 +1,9 @@
-57d6641a3b62c837b5fffb87b73de85685c3ce18		branch 'main' of https://github.com/joelazar/nvim-config
+1eb976ecc6893af46312ccc83ed6b7c01796e502		branch 'main' of https://github.com/AstroNvim/AstroNvim
+2ffd706983d0171604941fa31bfd8182db6a530a	not-for-merge	branch 'format' of https://github.com/AstroNvim/AstroNvim
+a449b5d9d5b69213512ad119be45bf7da6e5fd25	not-for-merge	branch 'gh-pages' of https://github.com/AstroNvim/AstroNvim
+1356d5364dd54549d93127fbd1ae11bed550712d	not-for-merge	branch 'heirline_bufferline' of https://github.com/AstroNvim/AstroNvim
+b0a48a8e1f3d4853fd076a77830902a4e8afcfe3	not-for-merge	branch 'lazy' of https://github.com/AstroNvim/AstroNvim
+67dea60b2c783f6f9dd931025d4961c0206c42c9	not-for-merge	branch 'nightly' of https://github.com/AstroNvim/AstroNvim
+8ec90cc9229a2a22cf94ae5728b5ee44f3b489af	not-for-merge	branch 'readme_update' of https://github.com/AstroNvim/AstroNvim
+0c6708938039aed1da4ba8e5f1961b328803462f	not-for-merge	branch 'remove_mason_lazy_load' of https://github.com/AstroNvim/AstroNvim
+3b53fc15bb735859efdadb0b52124bfd028088d3	not-for-merge	branch 'v3' of https://github.com/AstroNvim/AstroNvim
